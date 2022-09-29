@@ -12,12 +12,12 @@
     <!--aula 27/09/2022-->
     <!--inicio do menu  Responsivo-->
     <header id="header">
-        <a id="logo" href="index.html"><img src="./img/senai_small.jpg" alt="logo GamesScd>"></a>
+        <a id="logo" href="index.html"><img src="./img/selecionados/nova logo games.jpg" alt="logo GamesScd>"></a>
         <nav id="nav">
-          <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true"
+            <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true"
             aria-controls="menu" aria-expanded="false">
-            <span id="hamburger"></span>
-          </button>
+                <span id="hamburger"></span>
+            </button>
             <ul id="menu" role="menu">
                 <li><a class="linkMenu" href="index.html">home</a></li>
                 <li><a class="linkMenu" href="jogos.html">jogos</a></li>
@@ -28,5 +28,51 @@
     </header> 
     <!--Fim do menu responsivo -->
     
+    <!--Inicio do Carousel Página Principal -->
+    <div id="carouselExamleInterval" class="Carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="500">
+                    <img src="./img/selecionados/imagem 1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                    />
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="./img/selecionados/imagem 2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/selecionados/imagem 3.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                    />
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                data-bs-target="#carouselExampleInterval"
+                type="button"
+                data-bs-slife="prev"
+            >
+            <span classe="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">antenterior</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                data-bs-target="#carouselExampleInterval"
+                type="button"
+                data-bs-slife="next"
+            >
+            <span classe="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">próximo</span>
+            </button>
+    </div>
+    <!-- Fim do carousel da Página Principal-->
+
 </body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </html>
