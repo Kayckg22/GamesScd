@@ -97,7 +97,7 @@ a{
         transition: 0.3s;
         position: relative;
     }
-    #nav.active #hamburguer {
+    #nav.active #hamburger {
         border-top-color: transparent;
     }
     #nav.active #hamburger::before {
