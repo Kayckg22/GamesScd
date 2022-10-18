@@ -112,7 +112,7 @@ a{
     .embed-container {
         position: relative;
         padding-bottom: 0;
-        height: 300px;
+        height: auto;
         max-width: 100%;
         margin-top: 10px;
         margin-bottom: 0;
@@ -130,6 +130,9 @@ a{
         border: solid thick #550683;;
         border-radius: 1em;
         box-shadow: gray;
+    }
+    .embed-container .col-sm{
+        margin-top: 10px;
 
     }
 }
@@ -269,7 +272,7 @@ a{
 .embed-container {
     position: relative;
     padding-bottom: 0;
-    height: 300px;
+    height: auto;
     max-width: 100%;
     margin-top: 10px;
     margin-bottom: 0;
@@ -287,4 +290,7 @@ a{
     border: solid thick #550683;;
     border-radius: 1em;
     box-shadow: gray;
+}
+.embed-container .col-sm {
+    margin-top: 10px;
 }
