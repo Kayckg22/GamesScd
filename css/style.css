@@ -117,6 +117,8 @@ a{
         margin-top: 10px;
         margin-bottom: 0;
         padding-top: 0;
+        padding-left: 30px;
+        padding-right: 30px;
     }
  
     .embed-container iframe, .embed-container object, .embed-container embed {
@@ -125,6 +127,10 @@ a{
         left: 0;
         width: 100%;
         height: 100%;
+        border: solid thick #550683;;
+        border-radius: 1em;
+        box-shadow: gray;
+
     }
 }
 
@@ -134,7 +140,7 @@ a{
     width: 100%;
     height: 500px;
     padding: 50px;
-    margin: 30px auto;
+    margin: 18px auto;
     background-color: #550683;
 }
 .section-banner-home img {
@@ -268,6 +274,8 @@ a{
     margin-top: 10px;
     margin-bottom: 0;
     padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -276,4 +284,7 @@ a{
     left: 0;
     width: 100%;
     height: 100%;
+    border: solid thick #550683;;
+    border-radius: 1em;
+    box-shadow: gray;
 }
