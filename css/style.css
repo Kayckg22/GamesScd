@@ -413,3 +413,17 @@ a{
     color: #5793ef;
     transition: all 0.5s ease 0s;
 }
+/* Fim CSS contato */
+
+/* início map CSS */
+.map {
+
+     width: auto;
+     height: auto;
+}     
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+
+}
